@@ -105,7 +105,7 @@ Unpredictable Trajectory: The alternating pattern of large spikes followed immed
 Adopt Buffer Planning: Align operational capacity and targets to account for historical downturns (such as May, July, and September dips) to prevent over-allocation during volatile cycles.
 
 **Findings**
-customers with a total spending of above 100,000 were categorized as high value, above 
+customers with a total spending of above 100,000 were categorized as high value, above 50000 were categorized as medium value and below 50000 were categorized as low value
 Wide Spending Disparity: Customer total spending ranges from a high of 848,118.75 (Brian Chebet) (Alex Korir, ID 111), demonstrating a massive gap in individual customer value.
 Tiered Segmentation Structure: The dataset segments customers into distinct performance brackets High Value, Medium Value, and Low Value based on total calculated spending derived from quantity, unit price, and discounts.
 Top-Tier Concentration: The upper echelon of customers (e.g., Brian Chebet, Peter Ndungu, and Lucy Njoroge) drive hundreds of thousands in revenue individually, forming the core revenue-generating group.
@@ -122,5 +122,17 @@ Discount Efficiency: The calculation incorporates a discount modifier (1 - o.dis
 Implement VIP Retention Programs: Focus dedicated customer success efforts, exclusive perks, and loyalty incentives on your High-Value segment (e.g., customers above the top thresholds) to safeguard your primary revenue streams.
 Upgrade Medium-Value Buyers: Design targeted cross-selling and up-selling campaigns for Medium-Value customers to push them into the High-Value tier.
 Automate Low-Value Engagement: Keep acquisition and servicing costs minimal for Low-Value customers by relying on automated marketing and self-service portals rather than costly manual interventions.
+# Challenges faced
 
+During the project, several areas required careful attention. Database relationships had to be established correctly to ensure that customer information was accurately linked to sales transactions.
+
+Writing complex SQL queries also required an understanding of joins, aggregate functions, subqueries and window functions. In addition, the accuracy of the analysis depended on the correctness and completeness of the available data.
+
+The analysis was limited to the information contained in the two database tables and the period covered by the available transactions.
+
+# Conclusion
+
+The Retail Sales and Customer Intelligence project provided an opportunity to apply PostgreSQL and SQL techniques in analysing retail business data. Through database creation, table relationships and the development of SQL queries, customer information and sales transactions were organized into a structured relational database. Different SQL techniques were applied to examine sales performance, customer purchasing behaviour, product performance and profitability.
+
+The project also demonstrated the importance of data analysis in supporting business decision-making. The insights generated from the analysis could help Duka Smart Electronics improve its sales strategies, understand customer needs, manage inventory and monitor profitability. Overall, the project strengthened practical skills in database management, SQL querying and business intelligence while demonstrating how data could be transformed into useful information for business growth.
 
