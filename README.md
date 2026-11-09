@@ -74,9 +74,13 @@ The final section focused on applying advanced PostgreSQL features to develop re
 | **Profit** | `revenue - cost` |
 | **Profit margin %** | `profit / revenue * 100` — use `NULLIF(revenue, 0)` so you never divide by zero |
 # Business insights and reccomendattions
+
 ##  Product Category Revenue (Q16)
+
 **Finding**: Mobile Phones generated the highest revenue of KSh 8,982,283.25, representing approximately 29.16% of total revenue. Computing followed with KSh 8,307,353.45 (26.97%), while Accessories recorded the lowest revenue of KSh 1,542,348.90 (5.01%).
+
 **Why it matters**: Mobile Phones and Computing contributed approximately 56.13% of the total revenue. This showed that these two categories were important sources of sales for Duka Smart Electronics. The low revenue from Accessories may indicate lower demand or limited sales opportunities.
+
 **Recommendation**: Management should maintain adequate stock of Mobile Phones and Computing products to meet customer demand. The business should also investigate the low performance of Accessories and consider product promotions, improved marketing, or reviewing the range of accessories offered.
 
 ## Revenue Performance by Customer City (Q25)
