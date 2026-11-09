@@ -149,4 +149,11 @@ The analysis was limited to the information contained in the two database tables
 The Retail Sales and Customer Intelligence project provided an opportunity to apply PostgreSQL and SQL techniques in analysing retail business data. Through database creation, table relationships and the development of SQL queries, customer information and sales transactions were organized into a structured relational database. Different SQL techniques were applied to examine sales performance, customer purchasing behaviour, product performance and profitability.
 
 The project also demonstrated the importance of data analysis in supporting business decision-making. The insights generated from the analysis could help Duka Smart Electronics improve its sales strategies, understand customer needs, manage inventory and monitor profitability. Overall, the project strengthened practical skills in database management, SQL querying and business intelligence while demonstrating how data could be transformed into useful information for business growth.
+# Repository structure
+```Retail_sales_sql/
+│
+├── [02_create_tables.sql](https://github.com/otienodorsila90-cell/Retail_sales_sql/blob/main/02_create_tables.sql)
+├── [README.md](https://github.com/otienodorsila90-cell/Retail_sales_sql/blob/main/README.md)
+├── [Retail_sales_duka_smart_electronics.sql](https://github.com/otienodorsila90-cell/Retail_sales_sql/blob/main/Retail_sales_duka_smart_electronics.sql)
+└── [sql retail sales screenshots.pdf](https://github.com/otienodorsila90-cell/Retail_sales_sql/blob/main/sql%20retail%20sales%20screenshots.pdf)```
 
