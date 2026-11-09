@@ -66,6 +66,13 @@ The fifth section focused on window functions, which were used to perform calcul
 ### Section F: Advanced Business Intelligence 
 The final section focused on applying advanced PostgreSQL features to develop reusable reporting tools and generate management-level information.A monthly_sales_summary view was created to display monthly orders, revenue, cost and profit. This view provided a reusable summary of the business's monthly financial performance.A PostgreSQL function was also developed to return completed-order revenue for a supplied customer ID. The function was tested using an existing customer ID and a non-existing customer ID. For a customer without matching records, the function was designed to return zero instead of NULL.A customer segmentation analysis was performed to classify customers into High, Medium and Low Value categories. Spending thresholds were selected based on the distribution of customer spending in the dataset to provide a meaningful classification.Finally, a management report was developed to identify the five highest-spending customers, five top-performing products, the most profitable product category and the month with the lowest revenue.These analyses provided a summary of important business performance indicators that could support management decisions.
 # Business assumptions
+
+| Measure | Formula |
+|---|---|
+| **Revenue** | `quantity * unit_price * (1 - discount / 100)` |
+| **Cost** | `quantity * cost_price` |
+| **Profit** | `revenue - cost` |
+| **Profit margin %** | `profit / revenue * 100` — use `NULLIF(revenue, 0)` so you never divide by zero |
 # Business insights and reccomendattions
 ##  Product Category Revenue (Q16)
 **Finding**: Mobile Phones generated the highest revenue of KSh 8,982,283.25, representing approximately 29.16% of total revenue. Computing followed with KSh 8,307,353.45 (26.97%), while Accessories recorded the lowest revenue of KSh 1,542,348.90 (5.01%).
