@@ -78,6 +78,7 @@ The final section focused on applying advanced PostgreSQL features to develop re
 **Finding**: Mobile Phones generated the highest revenue of KSh 8,982,283.25, representing approximately 29.16% of total revenue. Computing followed with KSh 8,307,353.45 (26.97%), while Accessories recorded the lowest revenue of KSh 1,542,348.90 (5.01%).
 **Why it matters**: Mobile Phones and Computing contributed approximately 56.13% of the total revenue. This showed that these two categories were important sources of sales for Duka Smart Electronics. The low revenue from Accessories may indicate lower demand or limited sales opportunities.
 **Recommendation**: Management should maintain adequate stock of Mobile Phones and Computing products to meet customer demand. The business should also investigate the low performance of Accessories and consider product promotions, improved marketing, or reviewing the range of accessories offered.
+
 ## Revenue Performance by Customer City (Q25)
 
 **Finding:** Nairobi generated the highest revenue of KSh 12,930,183, followed by Mombasa with KSh 4,204,734 and Nakuru with KSh 3,254,490. Machakos recorded the lowest revenue of KSh 1,119,148.
@@ -85,13 +86,12 @@ The final section focused on applying advanced PostgreSQL features to develop re
 **Why it matters:** Nairobi contributed the largest share of sales, showing that it was an important market for Duka Smart Electronics. The difference between Nairobi and other cities may indicate differences in customer demand and market opportunities.
 
 **Recommendation:** Management should maintain adequate stock and strengthen sales operations in Nairobi. The business should also investigate the low revenue in Machakos and consider targeted marketing campaigns, customer promotions, and improved product availability to increase sales.
+
 ## Product Category Profitability and Margin Analysis(Q33)
 **Finding**
 Mobile Phones generated the highest total profit of KSh 728,760.65 (with revenue of KSh 6,942,060.65 and a profit margin of 10.50%), closely followed by Computing with a profit of KSh 700,021.70 (revenue of KSh 6,596,221.70 and a margin of 10.61%).Accessories recorded the lowest absolute profit at KSh 456,746.10 (revenue of KSh 1,077,496.10), but boasted the highest profitability by far with a stellar profit margin of 42.39%.Electronics yielded a total profit of KSh 547,359.20 at a 9.92% margin, while Home Appliances generated KSh 458,034.05 at an 11.38% margin.   
 
-
 **Why it matters** While high-volume categories like Mobile Phones and Computing drive the bulk of absolute cash flow and revenue, their slim margins leave little room for operational inefficiencies or unexpected costs.Conversely, Accessories acts as a high-margin niche. Even though its total revenue contribution is lower, its exceptional 42.39% profit margin proves it is an efficient, high-yield segment for the business.   
-
 
 **Recommendation** Protect Volume in Core Categories: Maintain competitive pricing and steady inventory levels for Mobile Phones and Computing to safeguard overall gross profit generation.   
 Scale High-Margin Accessories: Capitalize on the high profit margin of Accessories by introducing product bundles (e.g., bundling phone cases or chargers with mobile phone purchases) and cross-selling campaigns to boost total sales volume in this category.   
@@ -103,6 +103,7 @@ Scale High-Margin Accessories: Capitalize on the high profit margin of Accessori
 **Why it matters:** These customers may have stopped purchasing from Duka Smart Electronics, which could result in reduced sales and loss of customer loyalty. Losing existing customers may also increase the cost of acquiring new ones.
 
 **Recommendation:** Management should contact these customers through phone calls, SMS, or email to understand why they stopped purchasing. The business should introduce targeted discounts, loyalty rewards, and personalized offers to encourage them to make new purchases.
+
 ## Month over month revenue
 **Finding** Peak Revenue and Massive Spikes:The highest revenue value recorded is 2,180,704 in 2025-12, with a Month-over-Month (MoM) growth of 58% coming from a previous month's revenue of 1,380,152.   Other significant high-revenue months include 2026-06 (2,136,929 with 73.25% growth) and 2026-08 (2,350,619 with 48.31% growth).
 Severe Contractions and Sharp Drops:2026-01 experienced a drastic downturn, dropping to 343,982 from 2,180,704 in December, translating to a steep MoM decline of -84.23%. Other notable negative growth months include 2025-02 (-19.79%), 2025-04 (-12.65%), 2025-09 (-5.98%), 2026-05 (-29.41%), 2026-07 (-25.83%), and 2026-09 (-6.86%).  
@@ -115,15 +116,18 @@ Unpredictable Trajectory: The alternating pattern of large spikes followed immed
 Adopt Buffer Planning: Align operational capacity and targets to account for historical downturns (such as May, July, and September dips) to prevent over-allocation during volatile cycles.
 
 ## Customer category(High value,low value and medium value customers)
+
 **Findings**
 customers with a total spending of above 100,000 were categorized as high value, above 50000 were categorized as medium value and below 50000 were categorized as low value
 Wide Spending Disparity: Customer total spending ranges from a high of 848,118.75 (Brian Chebet) (Alex Korir, ID 111), demonstrating a massive gap in individual customer value.
 Tiered Segmentation Structure: The dataset segments customers into distinct performance brackets High Value, Medium Value, and Low Value based on total calculated spending derived from quantity, unit price, and discounts.
 Top-Tier Concentration: The upper echelon of customers (e.g., Brian Chebet, Peter Ndungu, and Lucy Njoroge) drive hundreds of thousands in revenue individually, forming the core revenue-generating group.
+
 **Why It Matters**
 Revenue Vulnerability (The Pareto Principle): If a small percentage of High-Value customers account for the lion's share of total spending, the business is heavily exposed to churn risk. Losing a few top-tier customers would create an immediate, severe revenue deficit.
 Misallocated Marketing Resources: Treating all 132 fetched customers the same wastes budget. Low-Value customers spending under 3,000 require a low-touch digital approach, whereas High-Value customers demand personalized account management and retention perks.   
 Discount Efficiency: The calculation incorporates a discount modifier (1 - o.discount / 100.0). If heavy discounts are being given indiscriminately to low-value buyers, it eats into profitability without securing loyalty.   
+
 **Recommendations**
 Implement VIP Retention Programs: Focus dedicated customer success efforts, exclusive perks, and loyalty incentives on your High-Value segment (e.g., customers above the top thresholds) to safeguard your primary revenue streams.
 Upgrade Medium-Value Buyers: Design targeted cross-selling and up-selling campaigns for Medium-Value customers to push them into the High-Value tier.
