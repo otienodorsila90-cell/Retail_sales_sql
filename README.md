@@ -103,28 +103,27 @@ Scale High-Margin Accessories: Capitalize on the high profit margin of Accessori
 **Why it matters:** These customers may have stopped purchasing from Duka Smart Electronics, which could result in reduced sales and loss of customer loyalty. Losing existing customers may also increase the cost of acquiring new ones.
 
 **Recommendation:** Management should contact these customers through phone calls, SMS, or email to understand why they stopped purchasing. The business should introduce targeted discounts, loyalty rewards, and personalized offers to encourage them to make new purchases.
+## Month over month revenue
 **Finding** Peak Revenue and Massive Spikes:The highest revenue value recorded is 2,180,704 in 2025-12, with a Month-over-Month (MoM) growth of 58% coming from a previous month's revenue of 1,380,152.   Other significant high-revenue months include 2026-06 (2,136,929 with 73.25% growth) and 2026-08 (2,350,619 with 48.31% growth).
 Severe Contractions and Sharp Drops:2026-01 experienced a drastic downturn, dropping to 343,982 from 2,180,704 in December, translating to a steep MoM decline of -84.23%. Other notable negative growth months include 2025-02 (-19.79%), 2025-04 (-12.65%), 2025-09 (-5.98%), 2026-05 (-29.41%), 2026-07 (-25.83%), and 2026-09 (-6.86%).  
 High Volatility: The dataset displays erratic growth percentages, alternating rapidly between triple-digit gains (e.g., +141.37% in 2026-02) and massive losses (e.g., -84.23% in 2026-01).
+
 **Why It Matters** Operational Strain: The sharp drop in 2026-01 (-84.23%) indicates that following peak periods (like December), the system experiences a profound reduction in volume or output. If costs or operations are scaled up to match the 2.18M peak, a sudden drop to 343k creates severe imbalance. 
 Unpredictable Trajectory: The alternating pattern of large spikes followed immediately by downturns (such as June 2026 peaking at 2.13M only to drop by -25.83% in July 2026) points to cyclical instability rather than steady, predictable scaling.    
+
 **Recommendations** Investigate the January Drop: Conduct a root-cause analysis on why January 2026 suffered an -84.23% fall from December 2025 to determine if it is driven by seasonal behavior, reporting lags, or data collection gaps.   Stabilize Month-over-Month Performance: Focus on smoothing out the extreme swings by analyzing what drives the high-growth months (like February 2026's +141.37% or June 2026's +73.25%) and replicating those drivers during slow periods.
 Adopt Buffer Planning: Align operational capacity and targets to account for historical downturns (such as May, July, and September dips) to prevent over-allocation during volatile cycles.
 
+## Customer category(High value,low value and medium value customers)
 **Findings**
 customers with a total spending of above 100,000 were categorized as high value, above 50000 were categorized as medium value and below 50000 were categorized as low value
 Wide Spending Disparity: Customer total spending ranges from a high of 848,118.75 (Brian Chebet) (Alex Korir, ID 111), demonstrating a massive gap in individual customer value.
 Tiered Segmentation Structure: The dataset segments customers into distinct performance brackets High Value, Medium Value, and Low Value based on total calculated spending derived from quantity, unit price, and discounts.
 Top-Tier Concentration: The upper echelon of customers (e.g., Brian Chebet, Peter Ndungu, and Lucy Njoroge) drive hundreds of thousands in revenue individually, forming the core revenue-generating group.
-
-
-
 **Why It Matters**
 Revenue Vulnerability (The Pareto Principle): If a small percentage of High-Value customers account for the lion's share of total spending, the business is heavily exposed to churn risk. Losing a few top-tier customers would create an immediate, severe revenue deficit.
 Misallocated Marketing Resources: Treating all 132 fetched customers the same wastes budget. Low-Value customers spending under 3,000 require a low-touch digital approach, whereas High-Value customers demand personalized account management and retention perks.   
 Discount Efficiency: The calculation incorporates a discount modifier (1 - o.discount / 100.0). If heavy discounts are being given indiscriminately to low-value buyers, it eats into profitability without securing loyalty.   
-
-
 **Recommendations**
 Implement VIP Retention Programs: Focus dedicated customer success efforts, exclusive perks, and loyalty incentives on your High-Value segment (e.g., customers above the top thresholds) to safeguard your primary revenue streams.
 Upgrade Medium-Value Buyers: Design targeted cross-selling and up-selling campaigns for Medium-Value customers to push them into the High-Value tier.
